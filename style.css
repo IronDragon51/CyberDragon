@@ -48,6 +48,73 @@ ul {
   padding: 0 20px;
 }
 
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.col-md-4.text-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.col-md-4.text-center p {
+  margin-top: 30px;
+}
+
+
+.col-md-4 {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  transition: transform 0.3s ease-in-out;
+  text-align: center;
+  width: 200px;
+}
+
+.col-md-4 h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  font-weight: 600;
+  color: #333;
+}
+
+.col-md-4:hover {
+  transform: translateY(-15px);
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.col-md-4 p {
+  font-size: 1.1rem;
+  color: #666;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+.col-md-4 a {
+  display: inline-block;
+  padding: 10px 20px;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: 600;
+  transition: background-color 0.2s ease-in-out;
+}
+
+
+
 /* Header */
 
 header {
@@ -120,8 +187,12 @@ nav ul li a {
 }
 
 .img-logo {
-  height: 50px; /* adjust height to your preference */
-  margin-left: 20px; /* add margin to the right of the logo */
+  height: 50px; 
+}
+
+.img-logo2 {
+  height: 70px; 
+  margin-left: 10px; 
 }
 
 /* Toggler styles */
@@ -178,6 +249,64 @@ main p {
 .fa-2x {
   font-size: 2rem;
 }
+
+div.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -10px;
+}
+
+div.row h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  margin: 0 auto;
+  padding: 20px 0;
+  color: #333;
+  text-transform: uppercase;
+  border-bottom: 2px solid #ce3e75;
+}
+
+
+.card {
+  border-radius: 15px;
+  border: none;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+  border-radius: 15px 15px 0 0 !important;
+}
+
+.card-body {
+  padding: 1.25rem;
+}
+
+.btn-outline-danger {
+  color: #dc3545;
+  border-color: #dc3545;
+}
+
+.btn-outline-danger:hover {
+  color: #fff;
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
+
+.btn-block {
+  margin-top: 1.5rem;
+}
+
+
+
+hr {
+  border-color: #dc3545;
+  margin-top: 0;
+  margin-bottom: 2rem;
+}
+
+
+
 
 /* Footer */
 /* footer {
@@ -237,6 +366,7 @@ footer p {
 
   main .row {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 80px;
@@ -250,6 +380,8 @@ footer p {
     max-width: 100%;
     height: auto;
   }
+
+
 
   footer {
     margin-top: 120px;

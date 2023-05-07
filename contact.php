@@ -20,46 +20,98 @@
     </div>
     <nav>
       <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Art</a></li>
-        <li><a href="#">Code</a></li>
-        <li><a href="#">Shop</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="index.php">Home</a></li>
+        <li><a href="art.php">Art</a></li>
+        <li><a href="code.php">Code</a></li>
+        <li><a href="shop.php">Shop</a></li>
+        <li><a href="contact.php">Contact</a></li>
       </ul>
     </nav>
   </header>
 
 
   <main>
-    <div class="container-fluid">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <h2>Get in touch with me!</h2>
+        </div>
+      </div>
+      <div class="row">
+
+        <a href="https://www.instagram.com/cyberdragon_art/" target="_blank">
+          <div class="col-md-4 text-center">
+            <i class="fab fa-instagram fa-4x"></i>
+            <p>Follow me on Instagram</p>
+          </div>
+        </a>
+
+        <a href="https://twitter.com/Cyb3rDragon" target="_blank">
+          <div class="col-md-4 text-center">
+            <i class="fab fa-twitter fa-4x"></i>
+            <p>Follow me on Twitter</p>
+          </div>
+        </a>
+
+        <a href="https://www.tiktok.com/@cyberdragonart" target="_blank">
+          <div class="col-md-4 text-center">
+            <i class="fab fa-tiktok fa-4x"></i>
+            <p>Check out my TikTok</p>
+          </div>
+        </a>
+      </div>
+
+      <div class="row">
+
+        <a href="https://www.youtube.com/@cyberdragon852" target="_blank">
+          <div class="col-md-4 text-center">
+            <i class="fab fa-youtube fa-4x"></i>
+            <p>Check out my YouTube channel</p>
+          </div>
+        </a>
+
+        <a href="https://www.fiverr.com/irondragon51" target="_blank">
+          <div class="col-md-4 text-center">
+            <img src="images/fiverr-icon.jpg" alt="fiverr" class="img-logo2">
+            <p>Hire me on Fiverr</p>
+          </div>
+        </a>
+
+        <a href="mailto:irondragon551@gmail.com" target="_blank">
+          <div class="col-md-4 text-center">
+            <i class="fas fa-envelope fa-4x"></i>
+            <p>Send me an email</p>
+          </div>
+        </a>
+      </div>
+    </div>
   </main>
 
+
+
   <footer>
-  <div class="row">
-    <div class="col-md-6 text-center">
-      <ul class="list-inline">
-        <li class="list-inline-item">
-          <a href="https://www.instagram.com/cyberdragon_art/" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
-        </li>
-        <li class="list-inline-item">
-          <a href="https://twitter.com/Cyb3rDragon" target="_blank"><i class="fab fa-twitter fa-2x"></i></a>
-        </li>
-        <li class="list-inline-item">
-          <a href="https://www.tiktok.com/@cyberdragonart" target="_blank"><i class="fab fa-tiktok fa-2x"></i></a>
-        </li>
-        <li class="list-inline-item">
-          <a href="https://www.fiverr.com/irondragon51" target="_blank"><i class="fab fa-fiverr fa-2x"></i></a>
-        </li>
-        <li class="list-inline-item">
-          <a href="mailto:irondragon551@gmail.com" target="_blank"><i class="fas fa-envelope fa-2x"></i></a>
-        </li>
-      </ul>
+    <div class="row">
+      <div class="col-md-6 text-center">
+        <ul class="list-inline">
+          <li class="list-inline-item">
+            <a href="https://www.instagram.com/cyberdragon_art/" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
+          </li>
+          <li class="list-inline-item">
+            <a href="https://twitter.com/Cyb3rDragon" target="_blank"><i class="fab fa-twitter fa-2x"></i></a>
+          </li>
+          <li class="list-inline-item">
+            <a href="https://www.tiktok.com/@cyberdragonart" target="_blank"><i class="fab fa-tiktok fa-2x"></i></a>
+          </li>
+          <li class="list-inline-item">
+            <a href="mailto:irondragon551@gmail.com" target="_blank"><i class="fas fa-envelope fa-2x"></i></a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-md-6 text-center">
+        <p>&copy; 2023 Cyber Dragon. All rights reserved.</p>
+      </div>
     </div>
-    <div class="col-md-6 text-center">
-      <p>&copy; 2023 Cyber Dragon. All rights reserved.</p>
-    </div>
-  </div>
-</footer>
+  </footer>
 
 </body>
 

@@ -20,46 +20,90 @@
     </div>
     <nav>
       <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Art</a></li>
-        <li><a href="#">Code</a></li>
-        <li><a href="#">Shop</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="index.php">Home</a></li>
+        <li><a href="art.php">Art</a></li>
+        <li><a href="code.php">Code</a></li>
+        <li><a href="shop.php">Shop</a></li>
+        <li><a href="contact.php">Contact</a></li>
       </ul>
     </nav>
   </header>
 
 
   <main>
-    <div class="container-fluid">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h1 class="text-center">My Programming Projects</h1>
+          <hr>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <div class="card-header bg-dark text-light">
+              <h4 class="my-0 font-weight-normal">Project 1</h4>
+            </div>
+            <div class="card-body">
+              <p class="card-text">Description of project 1 goes here.</p>
+              <a href="#" class="btn btn-lg btn-block btn-outline-danger">View on GitHub</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <div class="card-header bg-dark text-light">
+              <h4 class="my-0 font-weight-normal">Project 2</h4>
+            </div>
+            <div class="card-body">
+              <p class="card-text">Description of project 2 goes here.</p>
+              <a href="#" class="btn btn-lg btn-block btn-outline-danger">View on GitHub</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <div class="card-header bg-dark text-light">
+              <h4 class="my-0 font-weight-normal">Project 3</h4>
+            </div>
+            <div class="card-body">
+              <p class="card-text">Description of project 3 goes here.</p>
+              <a href="#" class="btn btn-lg btn-block btn-outline-danger">View on GitHub</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
   </main>
 
   <footer>
-  <div class="row">
-    <div class="col-md-6 text-center">
-      <ul class="list-inline">
-        <li class="list-inline-item">
-          <a href="https://www.instagram.com/cyberdragon_art/" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
-        </li>
-        <li class="list-inline-item">
-          <a href="https://twitter.com/Cyb3rDragon" target="_blank"><i class="fab fa-twitter fa-2x"></i></a>
-        </li>
-        <li class="list-inline-item">
-          <a href="https://www.tiktok.com/@cyberdragonart" target="_blank"><i class="fab fa-tiktok fa-2x"></i></a>
-        </li>
-        <li class="list-inline-item">
-          <a href="https://www.fiverr.com/irondragon51" target="_blank"><i class="fab fa-fiverr fa-2x"></i></a>
-        </li>
-        <li class="list-inline-item">
-          <a href="mailto:irondragon551@gmail.com" target="_blank"><i class="fas fa-envelope fa-2x"></i></a>
-        </li>
-      </ul>
+    <div class="row">
+      <div class="col-md-6 text-center">
+        <ul class="list-inline">
+          <li class="list-inline-item">
+            <a href="https://www.instagram.com/cyberdragon_art/" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
+          </li>
+          <li class="list-inline-item">
+            <a href="https://twitter.com/Cyb3rDragon" target="_blank"><i class="fab fa-twitter fa-2x"></i></a>
+          </li>
+          <li class="list-inline-item">
+            <a href="https://www.tiktok.com/@cyberdragonart" target="_blank"><i class="fab fa-tiktok fa-2x"></i></a>
+          </li>
+          <li class="list-inline-item">
+            <a href="https://www.fiverr.com/irondragon51" target="_blank"><i class="fab fa-fiverr fa-2x"></i></a>
+          </li>
+          <li class="list-inline-item">
+            <a href="mailto:irondragon551@gmail.com" target="_blank"><i class="fas fa-envelope fa-2x"></i></a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-md-6 text-center">
+        <p>&copy; 2023 Cyber Dragon. All rights reserved.</p>
+      </div>
     </div>
-    <div class="col-md-6 text-center">
-      <p>&copy; 2023 Cyber Dragon. All rights reserved.</p>
-    </div>
-  </div>
-</footer>
+  </footer>
 
 </body>
 
