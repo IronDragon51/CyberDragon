@@ -67,9 +67,7 @@ ul {
   margin-top: 30px;
 }
 
-
 .col-md-4 {
-
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -113,8 +111,6 @@ ul {
   transition: background-color 0.2s ease-in-out;
 }
 
-
-
 /* Header */
 
 header {
@@ -130,7 +126,6 @@ header {
   z-index: 9999;
 }
 
-
 nav ul {
   list-style: none;
   display: flex;
@@ -139,7 +134,6 @@ nav ul {
   margin: 0 100px;
   padding: 0;
 }
-
 
 nav li {
   margin: 0 20px;
@@ -166,7 +160,7 @@ nav li.active a {
   color: #333;
 }
 
-.nav-brand a{
+.nav-brand a {
   font-size: 24px;
   font-weight: bold;
   text-decoration: none;
@@ -187,12 +181,12 @@ nav ul li a {
 }
 
 .img-logo {
-  height: 50px; 
+  height: 50px;
 }
 
 .img-logo2 {
-  height: 70px; 
-  margin-left: 10px; 
+  height: 70px;
+  margin-left: 10px;
 }
 
 /* Toggler styles */
@@ -204,7 +198,6 @@ nav ul li a {
   margin-right: 20px;
 }
 
-
 .navbar-toggler:focus {
   outline: none;
 }
@@ -213,11 +206,6 @@ nav ul li a {
   height: 30px;
   width: 30px;
 }
-
-
-
-
-
 
 /* Main */
 main {
@@ -232,6 +220,13 @@ main h1 {
 main p {
   font-size: 1.5rem;
   margin-bottom: 40px;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 40px 0;
+  text-align: center;
 }
 
 .list-inline {
@@ -250,63 +245,74 @@ main p {
   font-size: 2rem;
 }
 
-div.row {
+.row {
   display: flex;
   flex-wrap: wrap;
-  margin: 0 -10px;
+  margin: 0 -15px;
 }
 
-div.row h2 {
-  font-size: 2rem;
-  font-weight: bold;
-  text-align: center;
-  margin: 0 auto;
-  padding: 20px 0;
-  color: #333;
-  text-transform: uppercase;
-  border-bottom: 2px solid #ce3e75;
+.col-md-6 {
+  flex: 0 0 50%;
+  max-width: 50%;
+  padding: 0 15px;
 }
-
 
 .card {
-  border-radius: 15px;
   border: none;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
 }
 
-.card-header {
-  border-radius: 15px 15px 0 0 !important;
+.card:hover {
+  transform: translateY(-10px);
 }
 
 .card-body {
-  padding: 1.25rem;
+  padding: 25px;
 }
 
-.btn-outline-danger {
-  color: #dc3545;
-  border-color: #dc3545;
+.card-title {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 10px;
 }
 
-.btn-outline-danger:hover {
+.card-text {
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.btn-primary,
+.btn-outline-secondary {
+  font-size: 1.2rem;
+  font-weight: 500;
+  border-radius: 30px;
+  padding: 12px 25px;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-primary {
+  background-color: #cc0000;
+  border-color: #cc0000;
+}
+
+.btn-primary:hover {
+  background-color: #990000;
+  border-color: #990000;
+}
+
+.btn-outline-secondary {
+  color: #333;
+  border-color: #333;
+}
+
+.btn-outline-secondary:hover {
   color: #fff;
-  background-color: #dc3545;
-  border-color: #dc3545;
+  background-color: #333;
+  border-color: #333;
 }
-
-.btn-block {
-  margin-top: 1.5rem;
-}
-
-
-
-hr {
-  border-color: #dc3545;
-  margin-top: 0;
-  margin-bottom: 2rem;
-}
-
-
-
 
 /* Footer */
 /* footer {
@@ -346,22 +352,82 @@ footer p {
 
 
 
+
 /* Media queries */
-@media (min-width: 768px) {
-  header {
-    padding: 20px 0;
+@media (min-width: 576px) {
+  main .col-md-6 {
+    text-align: center;
   }
+}
 
+@media (max-width: 767px) {
+  /* Hamburger menu styles */
   .navbar-collapse {
-    justify-content: flex-end;
+    display: none;
+    position: fixed;
+    top: 60px;
+    left: 0;
+    right: 0;
+    background-color: #333;
+    padding: 20px;
+    z-index: 9998;
   }
 
-  main {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: calc(100vh - 80px);
+  .navbar-collapse ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .navbar-collapse li {
+    margin-bottom: 10px;
+  }
+
+  .navbar-collapse a {
+    display: block;
+    padding: 10px 20px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 0.2s ease;
+  }
+
+  .navbar-collapse a:hover {
+    color: #ccc;
+  }
+
+  .navbar-toggler {
+    display: block;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 9999;
+  }
+
+  .navbar-toggler-icon {
+    display: block;
+    width: 30px;
+    height: 30px;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+  }
+
+  /* Show/hide hamburger menu */
+  .navbar-toggler:focus ~ .navbar-collapse {
+    display: block;
+  }
+}
+
+
+
+@media (min-width: 992px) {
+  main .col-md-6 {
+    text-align: left;
   }
 
   main .row {
@@ -372,30 +438,15 @@ footer p {
     margin-bottom: 80px;
   }
 
-  main .col-md-6 {
-    text-align: left;
+  main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 80px);
   }
-
-  main img {
-    max-width: 100%;
-    height: auto;
-  }
-
-
 
   footer {
     margin-top: 120px;
-  }
-}
-
-@media (min-width: 992px) {
-  main h1 {
-    font-size: 4rem;
-  }
-
-  main p {
-    font-size: 2rem;
-    max-width: 600px;
-    margin-bottom: 60px;
   }
 }
