@@ -10,31 +10,68 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <h1>Cyber Dragon</h1>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="gallery.html">Art Gallery</a></li>
-        <li><a href="projects.html">Coding Projects</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
+<header class="bg-dark">
+  <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <a class="navbar-brand" href="#">Cyber Dragon</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="gallery.html">Art Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="projects.html">Coding Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
     </nav>
-  </header>
-  <main>
-  <section>
-      <h2>Welcome to my website!</h2>
-      <p>My name is Matthew, also known as Cyber Dragon. I am an artist and coder, and this is my online portfolio.</p>
-      <ul>
-        <li><a href="https://www.instagram.com/cyberdragon_art/" target="_blank"><img src="instagram-icon.png" alt="Instagram"></a></li>
-        <li><a href="https://twitter.com/Cyb3rDragon" target="_blank"><img src="twitter-icon.png" alt="Twitter"></a></li>
-        <li><a href="https://www.tiktok.com/@cyberdragonart" target="_blank"><img src="tiktok-icon.png" alt="TikTok"></a></li>
-      </ul>
-    </section>
-  </main>
+  </div>
+</header>
+
+<main>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-6 text-center">
+        <h1>Welcome to Cyber Dragon Art</h1>
+        <p class="lead">Explore the world of digital art and programming</p>
+        <ul class="list-inline">
+          <li class="list-inline-item">
+            <a href="https://www.instagram.com/cyberdragon_art/" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
+          </li>
+          <li class="list-inline-item">
+            <a href="https://twitter.com/Cyb3rDragon" target="_blank"><i class="fab fa-twitter fa-2x"></i></a>
+          </li>
+          <li class="list-inline-item">
+            <a href="https://www.tiktok.com/@cyberdragonart" target="_blank"><i class="fab fa-tiktok fa-2x"></i></a>
+          </li>
+          <li class="list-inline-item">
+            <a href="mailto:cyberdragon.art@gmail.com" target="_blank"><i class="fas fa-envelope fa-2x"></i></a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-md-6 text-center">
+        <img src="img/dragon.png" class="img-fluid" alt="Cyber Dragon Logo">
+      </div>
+    </div>
+  </div>
+</main>
+
   <footer>
     <p>&copy; 2023 Cyber Dragon. All rights reserved.</p>
   </footer>
+  
 </body>
 </html>
