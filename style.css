@@ -269,6 +269,7 @@ main p {
 }
 
 .card-body {
+  width: 400px;
   padding: 25px;
 }
 
@@ -284,6 +285,13 @@ main p {
   margin-bottom: 20px;
 }
 
+.card-text-small {
+  font-size: 0.9rem;
+  font-weight: 100;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
 .btn-primary,
 .btn-outline-secondary {
   font-size: 1.2rem;
@@ -294,18 +302,19 @@ main p {
 }
 
 .btn-primary {
-  background-color: #cc0000;
-  border-color: #cc0000;
+  background-color: #1d868a;
+  border-color: #145d5f;
 }
 
 .btn-primary:hover {
-  background-color: #990000;
-  border-color: #990000;
+  background-color: #176b6e;
+  border-color: #0f4749;
 }
 
 .btn-outline-secondary {
   color: #333;
   border-color: #333;
+  border: 3px solid rgba(23, 101, 121, 0.5);
 }
 
 .btn-outline-secondary:hover {
@@ -361,68 +370,52 @@ footer p {
 }
 
 @media (max-width: 767px) {
-  /* Hamburger menu styles */
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+  }
+  
   .navbar-collapse {
     display: none;
-    position: fixed;
-    top: 60px;
-    left: 0;
-    right: 0;
-    background-color: #333;
-    padding: 20px;
-    z-index: 9998;
   }
-
-  .navbar-collapse ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
-
-  .navbar-collapse li {
-    margin-bottom: 10px;
-  }
-
-  .navbar-collapse a {
-    display: block;
-    padding: 10px 20px;
-    color: #fff;
-    font-size: 18px;
-    font-weight: bold;
-    text-decoration: none;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    transition: all 0.2s ease;
-  }
-
-  .navbar-collapse a:hover {
-    color: #ccc;
-  }
-
+  
   .navbar-toggler {
     display: block;
-    position: fixed;
-    top: 20px;
-    right: 20px;
-    z-index: 9999;
   }
-
-  .navbar-toggler-icon {
-    display: block;
-    width: 30px;
-    height: 30px;
-    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
+  
+  .nav-brand {
+    margin-right: auto;
   }
-
-  /* Show/hide hamburger menu */
-  .navbar-toggler:focus ~ .navbar-collapse {
-    display: block;
+  
+  nav ul {
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0;
+    margin-top: 20px;
+    padding: 0;
+  }
+  
+  nav ul li {
+    margin: 0;
+    margin-left: 20px;
+  }
+  
+  nav ul li a {
+    font-size: 16px;
+    font-weight: normal;
+  }
+  
+  nav ul li.active a {
+    background-color: transparent;
+    color: #fff;
+  }
+  
+  .navbar-collapse.show ~ nav ul {
+    display: flex;
   }
 }
-
 
 
 @media (min-width: 992px) {

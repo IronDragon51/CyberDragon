@@ -31,7 +31,10 @@
 
 
   <main>
-    <div class="container-fluid">
+    <div class="">
+      <h1>Welcome to my website!</h1>
+      <h2></h2>
+    </div>
   </main>
 
   <footer>

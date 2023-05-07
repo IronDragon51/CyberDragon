@@ -14,6 +14,9 @@
 <body>
 
   <header>
+    <button class="navbar-toggler">
+      <span class="navbar-toggler-icon"></span>
+    </button>
     <div class="nav-brand">
       <img src="images/irondragon_logo.png" alt="logo" class="img-logo">
       <a href="#">Cyber Dragon</a>
@@ -30,37 +33,66 @@
   </header>
 
 
-  <main>
-    <div class="container-fluid">
+  <main class="container">
+    <h1>My Art Projects</h1>
+    <div class="row">
+      <div class="col-md-6 mb-4">
+        <div class="card h-100">
+          <div class="card-body">
+            <h2 class="card-title">ArtStation</h2>
+            <p class="card-text">The arts/designs I'm most proud of! </p>
+            <p class="card-text">Sort by theme available </p>
+            <p class="card-text-small">Updated 7 months ago</p>
+            <a href="https://cyb3rdragon.artstation.com" target="_blank" class="btn btn-primary">View on ArtStation</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 mb-4">
+        <div class="card h-100">
+          <div class="card-body">
+            <h2 class="card-title">Fiverr</h2>
+            <p class="card-text">Designs I made for customers all around the world</p>
+            <p class="card-text">◾ 70+ orders completed so far</p>
+            <p class="card-text">◾ 4.9/5⭐ average rating</p>
+            <p class="card-text">◾ 60+ reviews/feedbacks</p>
+            <a href="https://www.fiverr.com/irondragon51" target="_blank" class="btn btn-primary">View on Fiverr</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <h1 class="text-center"><a href="https://www.instagram.com/cyberdragon_art" target="_blank" class="btn btn-outline-secondary">View More Arts on Instagram</a></h1>
+    <h1 class="text-center"><a href="https://www.tiktok.com/@cyberdragonart" target="_blank" class="btn btn-outline-secondary">View Progress videos on TikTok</a></h1>
   </main>
 
-  <footer>
-  <div class="row">
-    <div class="col-md-6 text-center">
-      <ul class="list-inline">
-        <li class="list-inline-item">
-          <a href="https://www.instagram.com/cyberdragon_art/" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
-        </li>
-        <li class="list-inline-item">
-          <a href="https://twitter.com/Cyb3rDragon" target="_blank"><i class="fab fa-twitter fa-2x"></i></a>
-        </li>
-        <li class="list-inline-item">
-          <a href="https://www.tiktok.com/@cyberdragonart" target="_blank"><i class="fab fa-tiktok fa-2x"></i></a>
-        </li>
-        <li class="list-inline-item">
-          <a href="https://www.fiverr.com/irondragon51" target="_blank"><i class="fab fa-fiverr fa-2x"></i></a>
-        </li>
-        <li class="list-inline-item">
-          <a href="mailto:irondragon551@gmail.com" target="_blank"><i class="fas fa-envelope fa-2x"></i></a>
-        </li>
-      </ul>
-    </div>
-    <div class="col-md-6 text-center">
-      <p>&copy; 2023 Cyber Dragon. All rights reserved.</p>
-    </div>
-  </div>
-</footer>
 
+  <footer>
+    <div class="row">
+      <div class="col-md-6 text-center">
+        <ul class="list-inline">
+          <li class="list-inline-item">
+            <a href="https://www.instagram.com/cyberdragon_art/" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
+          </li>
+          <li class="list-inline-item">
+            <a href="https://twitter.com/Cyb3rDragon" target="_blank"><i class="fab fa-twitter fa-2x"></i></a>
+          </li>
+          <li class="list-inline-item">
+            <a href="https://www.tiktok.com/@cyberdragonart" target="_blank"><i class="fab fa-tiktok fa-2x"></i></a>
+          </li>
+          <li class="list-inline-item">
+            <a href="https://www.fiverr.com/irondragon51" target="_blank"><i class="fab fa-fiverr fa-2x"></i></a>
+          </li>
+          <li class="list-inline-item">
+            <a href="mailto:irondragon551@gmail.com" target="_blank"><i class="fas fa-envelope fa-2x"></i></a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-md-6 text-center">
+        <p>&copy; 2023 Cyber Dragon. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+ <script src="script.js"></script>
 </body>
 
 </html>
