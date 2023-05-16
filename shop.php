@@ -1,8 +1,9 @@
 <?php include 'header.php'; ?>
 
 
-  <main>
-    <div class="container-fluid">
-  </main>
+<main>
+  <div class="container-fluid">
+</main>
 
-  <?php include 'footer.php'; ?>
+
+<?php include 'footer.php'; ?>

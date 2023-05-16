@@ -4,13 +4,13 @@
   <aside>
     <div class="gallery-container">
       <div class="gallery-image">
-        <img src="images/space_girl.png" alt="Image 1"> 
+        <img src="IMAGES/space_girl.png" alt="Image 1"> 
       </div>
       <div class="gallery-image">
-        <img src="images/fishtower.jpg" alt="Image 2">
+        <img src="IMAGES/fishtower.jpg" alt="Image 2">
       </div>
       <div class="gallery-image">
-        <img src="images/zebra.jpg" alt="Image 3">
+        <img src="IMAGES/zebra.jpg" alt="Image 3">
       </div>
     </div>
   </aside>
