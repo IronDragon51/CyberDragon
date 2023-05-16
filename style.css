@@ -1,9 +1,12 @@
 /* Global styles */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;800&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Roboto", sans-serif;
+  /* font-family: "Roboto", sans-serif; */
+  font-family: "Inter", "DM Sans", Arial, sans-serif;
 }
 
 body {

@@ -34,6 +34,21 @@
   </header>
 
 
+  <aside>
+    <div class="gallery-container">
+      <div class="gallery-image">
+        <img src="images/space_girl.png" alt="Image 1"> 
+      </div>
+      <div class="gallery-image">
+        <img src="images/fishtower.jpg" alt="Image 2">
+      </div>
+      <div class="gallery-image">
+        <img src="images/zebra.jpg" alt="Image 3">
+      </div>
+    </div>
+  </aside>
+
+
   <main class="container fade-in-animation">
     <h1>My Art Projects</h1>
     <div class="row">
@@ -65,35 +80,4 @@
     <h1 class="text-center"><a href="https://www.tiktok.com/@cyberdragonart" target="_blank" class="btn btn-outline-secondary">View Progress videos on TikTok</a></h1>
   </main>
 
-
-  <footer>
-    <div class="row">
-      <div class="col-md-6 text-center">
-        <ul class="list-inline">
-          <li class="list-inline-item">
-            <a href="https://www.instagram.com/cyberdragon_art/" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
-          </li>
-          <li class="list-inline-item">
-            <a href="https://twitter.com/Cyb3rDragon" target="_blank"><i class="fab fa-twitter fa-2x"></i></a>
-          </li>
-          <li class="list-inline-item">
-            <a href="https://www.tiktok.com/@cyberdragonart" target="_blank"><i class="fab fa-tiktok fa-2x"></i></a>
-          </li>
-          <li class="list-inline-item">
-            <a href="https://www.fiverr.com/irondragon51" target="_blank"><i class="fab fa-fiverr fa-2x"></i></a>
-          </li>
-          <li class="list-inline-item">
-            <a href="mailto:irondragon551@gmail.com" target="_blank"><i class="fas fa-envelope fa-2x"></i></a>
-          </li>
-        </ul>
-      </div>
-      <div class="col-md-6 text-center">
-        <p>&copy; 2023 Cyber Dragon. All rights reserved.</p>
-      </div>
-    </div>
-  </footer>
-
-  <script src="script.js"></script>
-</body>
-
-</html>
+  <?php include 'footer.php'; ?>
