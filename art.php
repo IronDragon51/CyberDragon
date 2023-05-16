@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/css/bootstrap.min.css" integrity="sha512-FGNgDh4W75N4xODyL9mp/4ovTgTfCHSAdMk3qUIZaT4g4J75xFvo4RHx+NptR9xn+Q2OFax1W8zZt+DImt/vkA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="animation.css">
 </head>
 
 <body>
@@ -33,7 +34,7 @@
   </header>
 
 
-  <main class="container">
+  <main class="container fade-in-animation">
     <h1>My Art Projects</h1>
     <div class="row">
       <div class="col-md-6 mb-4">
@@ -92,7 +93,7 @@
     </div>
   </footer>
 
- <script src="script.js"></script>
+  <script src="script.js"></script>
 </body>
 
 </html>

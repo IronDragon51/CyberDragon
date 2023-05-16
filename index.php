@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/css/bootstrap.min.css" integrity="sha512-FGNgDh4W75N4xODyL9mp/4ovTgTfCHSAdMk3qUIZaT4g4J75xFvo4RHx+NptR9xn+Q2OFax1W8zZt+DImt/vkA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="animation.css">
 </head>
 
 <body>
@@ -30,40 +31,60 @@
   </header>
 
 
+  <aside>
+    <div class="gallery-container">
+      <div class="gallery-image">
+        <img src="images/space_girl.png" alt="Image 1">
+      </div>
+      <div class="gallery-image">
+        <img src="images/fishtower.jpg" alt="Image 2">
+      </div>
+      <div class="gallery-image">
+        <img src="images/zebra.jpg" alt="Image 3">
+      </div>
+    </div>
+  </aside>
+
   <main>
-    <div class="">
-      <h1>Welcome to my website!</h1>
-      <h2></h2>
+    <div class="fade-in-animation-container">
+      <h1 class="fade-in-animation">Welcome to my website!</h1>
+      <h2 class="fade-in-animation" style="animation-delay: 0.8s;">
+        I'm Cyb3rDragon <span style="font-size: normal;">(alias Matthew)</span>,
+        <br>
+        <span class="fade-in-animation" style="animation-delay: 1.4s">a freelance artist & programmer living in Hungary.</span>
+      </h2>
     </div>
   </main>
 
-  <footer>
-  <div class="row">
-    <div class="col-md-6 text-center">
-      <ul class="list-inline">
-        <li class="list-inline-item">
-          <a href="https://www.instagram.com/cyberdragon_art/" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
-        </li>
-        <li class="list-inline-item">
-          <a href="https://twitter.com/Cyb3rDragon" target="_blank"><i class="fab fa-twitter fa-2x"></i></a>
-        </li>
-        <li class="list-inline-item">
-          <a href="https://www.tiktok.com/@cyberdragonart" target="_blank"><i class="fab fa-tiktok fa-2x"></i></a>
-        </li>
-        <li class="list-inline-item">
-          <a href="https://www.fiverr.com/irondragon51" target="_blank"><i class="fab fa-fiverr fa-2x"></i></a>
-        </li>
-        <li class="list-inline-item">
-          <a href="mailto:irondragon551@gmail.com" target="_blank"><i class="fas fa-envelope fa-2x"></i></a>
-        </li>
-      </ul>
-    </div>
-    <div class="col-md-6 text-center">
-      <p>&copy; 2023 Cyber Dragon. All rights reserved.</p>
-    </div>
-  </div>
-</footer>
 
+  <footer>
+    <div class="row">
+      <div class="col-md-6 text-center">
+        <ul class="list-inline">
+          <li class="list-inline-item">
+            <a href="https://www.instagram.com/cyberdragon_art/" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
+          </li>
+          <li class="list-inline-item">
+            <a href="https://twitter.com/Cyb3rDragon" target="_blank"><i class="fab fa-twitter fa-2x"></i></a>
+          </li>
+          <li class="list-inline-item">
+            <a href="https://www.tiktok.com/@cyberdragonart" target="_blank"><i class="fab fa-tiktok fa-2x"></i></a>
+          </li>
+          <li class="list-inline-item">
+            <a href="https://www.fiverr.com/irondragon51" target="_blank"><i class="fab fa-fiverr fa-2x"></i></a>
+          </li>
+          <li class="list-inline-item">
+            <a href="mailto:irondragon551@gmail.com" target="_blank"><i class="fas fa-envelope fa-2x"></i></a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-md-6 text-center">
+        <p>&copy; 2023 Cyber Dragon. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="gallery.js"></script>
 </body>
 
 </html>

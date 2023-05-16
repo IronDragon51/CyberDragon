@@ -207,15 +207,44 @@ nav ul li a {
   width: 30px;
 }
 
+
+
+aside {
+  margin-top: 50px;
+  float: left;
+  max-width: 15%;
+  margin-left: 20px;
+}
+
+.gallery-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.gallery-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+.gallery-image.active {
+  display: block;
+}
+
+
+
 /* Main */
 main {
-  margin-top: 80px;
+  max-width: 60%;
+  margin-top: 60px;
+  text-align: center;
 }
 
 main h1 {
   font-size: 3rem;
   margin-bottom: 20px;
 }
+
+
 
 main p {
   font-size: 1.5rem;
@@ -224,8 +253,7 @@ main p {
 
 .container {
   max-width: 960px;
-  margin: 0 auto;
-  padding: 40px 0;
+  padding: 20px 0;
   text-align: center;
 }
 
@@ -323,6 +351,10 @@ main p {
   border-color: #333;
 }
 
+
+
+
+
 /* Footer */
 /* footer {
 } */
@@ -416,7 +448,6 @@ footer p {
     display: flex;
   }
 }
-
 
 @media (min-width: 992px) {
   main .col-md-6 {
