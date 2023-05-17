@@ -1,10 +1,8 @@
 <?php include 'header.php'; ?>
 
+  <img class="myBackground2" src="IMAGES/whale22.jpg" alt="whale22" />
 
- 
-
-
-  <main class="container fade-in-animation">
+  <main class="light-color-main container fade-in-animation">
     <h1>My Art Projects</h1>
     <div class="row">
       <div class="col-md-6 mb-4">
@@ -27,6 +25,8 @@
             <p class="card-text">◾ 4.9/5⭐ average rating</p>
             <p class="card-text">◾ 60+ reviews/feedbacks</p>
             <a href="https://www.fiverr.com/irondragon51" target="_blank" class="btn btn-primary">View on Fiverr</a>
+            <br>
+            <a href="https://wondertrees.de" target="_blank" class="btn btn-outline-secondary">Biggest Project</a>
           </div>
         </div>
       </div>

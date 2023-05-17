@@ -1,7 +1,7 @@
 <?php include 'header.php'; ?>
 
 
-<video autoplay muted loop id="myVideo">
+<video autoplay muted loop class="myBackground">
   <source src="IMAGES/treeVid.mp4" type="video/mp4">
 </video>
 <div class="overlay"></div>

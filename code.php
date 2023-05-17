@@ -1,7 +1,8 @@
 <?php include 'header.php'; ?>
 
+<img class="myBackground3" src="IMAGES/code.jpg" alt="code">
 
-<main class="container fade-in-animation">
+<main class="light-color-main container fade-in-animation">
   <h1>My Programming Projects</h1>
   <div class="row">
     <div class="col-md-6 mb-4">

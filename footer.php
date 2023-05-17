@@ -1,5 +1,5 @@
 <footer>
-    <div class="row">
+    <div class="main-wrapper">
         <div class="col-md-6 text-center">
             <ul class="list-inline">
                 <li class="list-inline-item">
