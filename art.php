@@ -28,7 +28,7 @@
             <br>
             <a href="https://wondertrees.de" target="_blank" class="btn btn-outline-secondary">Biggest Project</a>
           </div>
-        </div>
+        </div> 
       </div>
     </div>
     <h1 class="text-center"><a href="https://www.instagram.com/cyberdragon_art" target="_blank" class="btn btn-outline-secondary">View More Arts on Instagram</a></h1>
