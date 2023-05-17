@@ -8,10 +8,15 @@
     <link rel="shortcut icon" type="image/x-icon" href="images/favicon-16x16.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/css/bootstrap.min.css" integrity="sha512-FGNgDh4W75N4xODyL9mp/4ovTgTfCHSAdMk3qUIZaT4g4J75xFvo4RHx+NptR9xn+Q2OFax1W8zZt+DImt/vkA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
     <link rel="stylesheet" href="CSS/style.css">
+
+    <link rel="stylesheet" href="CSS/header_style.css">
+    <link rel="stylesheet" href="CSS/footer_style.css">
+
+    <link rel="stylesheet" href="CSS/media_queries.css">
     <link rel="stylesheet" href="CSS/animation.css">
     <link rel="stylesheet" href="CSS/video.css">
-
 </head>
 
 <body>

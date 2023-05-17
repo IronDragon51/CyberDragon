@@ -25,8 +25,9 @@
     </div>
 </footer>
 
-<script src="script.js"></script>
-<script src="gallery.js"></script>
+<script src="JS/video.js"></script>
+<script src="JS/script.js"></script>
+<script src="JS/gallery.js"></script>
 </body>
 
 </html>

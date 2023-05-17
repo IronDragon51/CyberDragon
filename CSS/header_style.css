@@ -1,0 +1,80 @@
+/* Header */
+
+header {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+  }
+  
+  header a {
+    font-size: medium;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 100px;
+    padding: 0;
+  }
+  
+  nav li {
+    margin: 0 20px;
+    margin-left: 20px;
+  }
+  
+  nav li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 0.2s ease;
+  }
+  
+  nav li a:hover {
+    color: #ccc;
+    text-decoration: underline;
+  }
+  
+  nav li.active a {
+    background-color: #fff;
+    color: #333;
+  }
+  
+  .nav-brand {
+    display: flex;
+    margin-left: 50px;
+  }
+  
+  .nav-brand a {
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 20px;
+    color: #fff;
+    padding: 10px; /* add some padding to create a button-like effect */
+  }
+  
+  nav ul li a {
+    font-size: 22px;
+    font-weight: bold;
+  }
+  
+  .img-logo {
+    height: 50px;
+  }
+  
+  .img-logo2 {
+    height: 70px;
+    margin-left: 10px;
+  }
