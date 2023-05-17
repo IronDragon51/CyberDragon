@@ -1,12 +1,11 @@
 <?php include 'header.php'; ?>
 
 
+<div class="main-wrapper">
   <main>
     <div class="container">
-      <div class="row">
-        <div class="col-md-12 text-center">
+      <div class="row text-center">
           <h2>Get in touch with me!</h2>
-        </div>
       </div>
       <div class="row">
 
@@ -57,7 +56,8 @@
       </div>
     </div>
   </main>
+</div>
 
 
 
-  <?php include 'footer.php'; ?>
+<?php include 'footer.php'; ?>

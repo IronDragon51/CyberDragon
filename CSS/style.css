@@ -14,6 +14,16 @@ body {
   font-size: 16px;
   line-height: 1.5;
   color: #333;
+  
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+html, body{
+  height: 100%;
 }
 
 a {
@@ -55,6 +65,7 @@ ul {
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
+  margin-top: 10rem;
   padding: 0 20px;
 }
 
@@ -64,6 +75,7 @@ ul {
   justify-content: center;
   align-items: center;
   text-align: center;
+  margin: 10px;
 }
 
 .col-md-4.text-center p {
@@ -84,6 +96,14 @@ ul {
   text-align: center;
   width: 200px;
 }
+
+.text-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
 
 .col-md-4 h3 {
   font-size: 1.5rem;
@@ -192,6 +212,10 @@ nav ul li a {
   margin-left: 10px;
 }
 
+#CR{
+  color: #c94c5d;
+}
+
 /* Toggler styles */
 .navbar-toggler {
   border: none;
@@ -237,13 +261,21 @@ aside {
 
 /* Main */
 main {
-  max-width: 60%;
-  margin-top: 60px;
+  max-width: 80%;
+  margin-top: 2rem;
   text-align: center;
+}
+
+.main-wrapper {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .light-color-main{
   color: #e9e9e9;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 main h1 {
@@ -280,16 +312,14 @@ main p {
   font-size: 2rem;
 }
 
-.row {
+.row.col-md-4{
   display: flex;
   flex-wrap: wrap;
   margin: 0 -15px;
 }
 
-.col-md-6 {
-  flex: 0 0 50%;
-  max-width: 50%;
-  padding: 0 15px;
+div.row{
+  align-items: center;
 }
 
 .card {
@@ -304,6 +334,7 @@ main p {
 }
 
 .card-body {
+
   width: 400px;
   padding: 25px;
 }
@@ -312,6 +343,10 @@ main p {
   font-size: 2rem;
   font-weight: 600;
   margin-bottom: 10px;
+}
+
+.card.h-100{
+  margin: 15px;
 }
 
 .card-text {
@@ -370,86 +405,7 @@ main p {
 
 
 
-/* Media queries */
-@media (min-width: 576px) {
-  main .col-md-6 {
-    text-align: center;
-  }
-}
 
-@media (max-width: 767px) {
-  header {
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 10px;
-  }
-  
-  .navbar-collapse {
-    display: none;
-  }
-  
-  .navbar-toggler {
-    display: block;
-  }
-  
-  .nav-brand {
-    margin-right: auto;
-  }
-  
-  nav ul {
-    display: none;
-    flex-direction: column;
-    align-items: flex-start;
-    margin: 0;
-    margin-top: 20px;
-    padding: 0;
-  }
-  
-  nav ul li {
-    margin: 0;
-    margin-left: 20px;
-  }
-  
-  nav ul li a {
-    font-size: 16px;
-    font-weight: normal;
-  }
-  
-  nav ul li.active a {
-    background-color: transparent;
-    color: #fff;
-  }
-  
-  .navbar-collapse.show ~ nav ul {
-    display: flex;
-  }
-}
-
-@media (min-width: 992px) {
-  main .col-md-6 {
-    text-align: left;
-  }
-
-  main .row {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 80px;
-  }
-
-  main {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: calc(100vh - 80px);
-  }
-
-  footer {
-    margin-top: 120px;
-  }
-}
 
 
 

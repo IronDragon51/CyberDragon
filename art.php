@@ -1,19 +1,7 @@
 <?php include 'header.php'; ?>
 
 
-  <aside>
-    <div class="gallery-container">
-      <div class="gallery-image">
-        <img src="IMAGES/space_girl.png" alt="Image 1"> 
-      </div>
-      <div class="gallery-image">
-        <img src="IMAGES/fishtower.jpg" alt="Image 2">
-      </div>
-      <div class="gallery-image">
-        <img src="IMAGES/zebra.jpg" alt="Image 3">
-      </div>
-    </div>
-  </aside>
+ 
 
 
   <main class="container fade-in-animation">
